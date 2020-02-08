@@ -1,0 +1,15 @@
+.menu-nav {
+  a {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .active-link {
+    background-color: white;
+    color: black;
+  }
+}

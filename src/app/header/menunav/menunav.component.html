@@ -1,0 +1,3 @@
+<nav class="menu-nav">
+    <a *ngFor="let navLink of navLinks" [routerLink]="['/', navLink]" routerLinkActive="active-link">{{ 'APP.HEADER.MENUNAV.' + navLink | uppercase | translate }}</a>
+</nav>

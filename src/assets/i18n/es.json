@@ -1,0 +1,29 @@
+{
+    "APP": {
+        "HEADER": {
+            "LOGO": "Expert Collective",
+            "SCREEN-READER": " - Página de inicio",
+            "MENUNAV": {
+                "ADVISORY": "Advisory",
+                "PRAXIS": "Praxis",
+                "VENTRUES": "Ventures",
+                "CONTACT-US": "Contacta con nosotros"
+            }
+        },
+        "HOME": {
+            "HEADER": "Knowledge Applied",
+            "STRATEGIES": "Perseguimos nuestra misión a través de tres estrategias distintas pero integradas:",
+            "ADVISORY": "Advisory",
+            "SUPPORT-SCIENTIST-ENTREPRENEURS": "Apoyo mediante la conexión de científicos y emprendedores en el proceso de formación y gestión de sus empresas.",
+            "PRAXIS": "Praxis",
+            "CODIFY-EXPERT-KNOWLEDGE": "Codifique y empaquete el conocimiento experto en experiencias de aprendizaje fáciles de digerir para cualquier persona curiosa sobre tecnología y negocios.",
+            "VENTURES": "Ventures",
+            "BRING-CAPITAL": "Aportamos capital para apoyar a las personas que desean aportar sus conocimientos a la sociedad a través de la formación de nuevas empresas y cooperativas.",
+            "HELLO": "hola {{value}}"
+        }
+    },
+    "FOOTER": {
+        "ABOUT-US": "Sobre nosotros",
+        "CONTACT-US": "Contacta con nosotros"
+    }
+}
