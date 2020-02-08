@@ -1,6 +1,20 @@
 {
     "ADVISORY" : {
-        "DRIVE-VALUE": "We help business leaders drive value.",
-        "QUOTE": "Experts from the collective helped us transform our culture to one where learning leads to change."
+        "DRIVE-VALUE": "We support business and technology leaders drive value in their organizations through clear lines of accountability.",
+        "QUOTE": "Experts from the collective helped us transform our culture to one where learning leads to change.",
+        "WHAT-WE-KNOW": {
+            "HEADER": "What we know",
+            "DIGITAL-BUSINESS-TRANSFORMATION": "Digital Business Transormation and Data Science",
+            "INNOVATION-MANAGEMENT": "Innovation Management",
+            "NEW-VENTURE-FORMATION": "New Venture Formation and Management"
+        },
+        "INDUSTRIES-WE-SERVE": {
+            "HEADER": "Industries we serve",
+            "APPLICATION-SOFTWARE": "Application Software",
+            "EDUCATION": "Education",
+            "INDUSTRIAL-MACHINERY": "Industrial Machinery",
+            "LIFE-SCIENCES": "Life Sciences",
+            "MEDICAL-DEVICES": "Medical Devices"
+        }
     }
 }

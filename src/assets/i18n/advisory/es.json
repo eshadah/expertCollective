@@ -1,6 +1,20 @@
 {
     "ADVISORY" : {
-        "DRIVE-VALUE": "Ayudamos a los líderes empresariales a generar valor.",
-        "QUOTE": "Los expertos del colectivo nos ayudaron a transformar nuestra cultura en una donde el aprendizaje conduce al cambio."
+        "DRIVE-VALUE": "Apoyamos a los líderes empresariales y tecnológicos para impulsar el valor en sus organizaciones a través de líneas claras de responsabilidad.",
+        "QUOTE": "Los expertos del colectivo nos ayudaron a transformar nuestra cultura en una donde el aprendizaje conduce al cambio.",
+        "WHAT-WE-KNOW": {
+            "HEADER": "Lo que sabemos",
+            "DIGITAL-BUSINESS-TRANSFORMATION": "Transformación digital de negocios y ciencia de datos",
+            "INNOVATION-MANAGEMENT": "Gestión de la innovación",
+            "NEW-VENTURE-FORMATION": "Innovación Formación y gestión de nuevas empresas"
+        },
+        "INDUSTRIES-WE-SERVE": {
+            "HEADER": "Industrias a las que servimos",
+            "APPLICATION-SOFTWARE": "Software de la aplicacion",
+            "EDUCATION": "Educación",
+            "INDUSTRIAL-MACHINERY": "Maquinaria industrial",
+            "LIFE-SCIENCES": "Ciencias de la vida",
+            "MEDICAL-DEVICES": "Dispositivos médicos"
+        }
     }
 }

@@ -1,3 +1,7 @@
-<nav class="menu-nav">
-    <a *ngFor="let navLink of navLinks" [routerLink]="['/', navLink]" routerLinkActive="active-link">{{ 'APP.HEADER.MENUNAV.' + navLink | uppercase | translate }}</a>
+<nav id="menuNav" [ngClass]="{ 'menu-nav': true, 'responsive-open': isResponsiveOpen }">
+    <a *ngFor="let navLink of navLinks" 
+        [routerLink]="['/', navLink]" routerLinkActive="active-link"
+
+        >{{ 'APP.HEADER.MENUNAV.' + navLink | uppercase | translate }}</a>
 </nav>
+<!-- [ngClass]="{ 'nav-link': true, 'responsive-open': isResponsiveOpen }" -->

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menunav',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menunav.component.scss']
 })
 export class MenunavComponent implements OnInit {
+  @Input() isResponsiveOpen: boolean;
 
   navLinks: string[] = [
     "advisory", "praxis", "ventures", "contact-us"
