@@ -7,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'test-app';
+  title = 'Expert Collective';
   param = { value: 'world' };
 
   constructor(translate: TranslateService) {
