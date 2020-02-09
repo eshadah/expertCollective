@@ -1,0 +1,33 @@
+{
+  "PRAXIS": {
+    "HEADER": "Praxis",
+    "DICTIONARY": {
+      "DEFINITION": "Praxis noun <i>formal</i>",
+      "FIRST": "action, practice: such as",
+      "FIRST.FIRST": "exercise or practice of an art, science, or skill",
+      "FIRST.SECOND": "customary practice or conduct",
+      "SECOND": "practical application of a theory.",
+      "SOURCE": "Merriam-Webster Dictionary"
+    },
+    "APPLY-WHAT-YOU-LEARN": "Apply what you learn through expert knowledge codified in easy-to-digest learning experiences.",
+    "PROGRAMS": {
+      "ONLINE-PROGRAMS": {
+        "HEADER": "Online Programs",
+        "MICRO-LEARNING": "Micro learning",
+        "EXECUTIVE-LEARNING": "Executive learning",
+        "PROFESSIONAL-TECHNICAL-LEARNING": "Professional and technical learning"
+      },
+      "BLENDED-PROGRAMS": {
+        "HEADER": "Blended Programs",
+        "BLENDED-BOOTCAMPS": "Blended bootcamps",
+        "BLENDED-WORKSHOPS": "Blended workshops"
+      },
+      "ON-LOCATION-PROGRAMS": {
+        "HEADER": "On-location Programs",
+        "IN-COUNTRY-INTENSIVE": "In-country intensive programs",
+        "SPEECHES-AND-LECTURES": "Speeches and lectures",
+        "CLIENT-VISITS": "Client visits"
+      }
+    }
+  }
+}

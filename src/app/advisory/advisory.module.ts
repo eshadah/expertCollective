@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+
+import { SharedModule } from '../shared/shared.module';
 
 import { AdvisoryRoutingModule } from './advisory-routing.module';
 import { AdvisoryComponent } from './advisory.component';
@@ -22,7 +23,7 @@ export function createAdvisoryTranslateLoader(http: HttpClient) {
     InnovationManagementComponent, 
   ],
   imports: [
-    CommonModule,
+    SharedModule,
     AdvisoryRoutingModule,
     TranslateModule.forChild({
       loader: {

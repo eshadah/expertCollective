@@ -1,15 +1,31 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+
+import { SharedModule } from '../shared/shared.module';
 
 import { VenturesRoutingModule } from './ventures-routing.module';
 import { VenturesComponent } from './ventures.component';
+import { VenturesHomeComponent } from './ventures-home/ventures-home.component';
 
+export function createVenturesTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/ventures/', '.json');
+}
 
 @NgModule({
-  declarations: [VenturesComponent],
+  declarations: [VenturesComponent, VenturesHomeComponent],
   imports: [
-    CommonModule,
-    VenturesRoutingModule
+    SharedModule,
+    VenturesRoutingModule,
+    TranslateModule.forChild({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createVenturesTranslateLoader,
+        deps: [HttpClient]
+      },
+      isolate: true
+    })
   ]
 })
 export class VenturesModule { }
