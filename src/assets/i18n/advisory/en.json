@@ -85,6 +85,27 @@
                 "ACCOUNTABILITY-ORGANIZATIONS": "Accountability in organizations",
                 "FROM-STORMING-TO-PERFORMING": "From storming to performing"
             }
+        },
+        "VENTURE-FORMATION": {
+            "BREADCRUMB": {
+                "HOME": "Expert Collective",
+                "ADVISORY": "Advisory",
+                "CURRENT-PAGE": "Venture Formation"
+            },
+            "HEADER": "New Ventures",
+            "EXPLANATION": "Founder-focused coaching for building effective teams.",
+            "BUSINESS-DEVELOPMENT": {
+                "HEADER": "Business Development",
+                "SALES-TEAM-MANAGEMENT": "Sales team management",
+                "SALES-PROCESS-ENABLEMENT": "Sales process enablement",
+                "NEGOTIATION-SUPPORT": "Negotiation support to get deals closed"
+            },
+            "ACTIVE-COACHING": {
+                "HEADER": "Active Coaching",
+                "ONE-ON-ONES": "One-on-ones with key people",
+                "MEASUREMENT-INDIVIDUAL-CONTRIBUTIONS": "Measurement of individual contributions",
+                "ORGANIZATIONAL-COOPERATION": "Organizational cooperation"
+            }
         }
     }
 }

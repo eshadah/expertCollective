@@ -85,6 +85,27 @@
                 "ACCOUNTABILITY-ORGANIZATIONS": "Responsabilidad en las organizaciones",
                 "FROM-STORMING-TO-PERFORMING": "De asaltar a actuar"
             }
+        },
+        "VENTURE-FORMATION": {
+            "BREADCRUMB": {
+                "HOME": "Colectivo Experto",
+                "ADVISORY": "Consultivo",
+                "CURRENT-PAGE": "Formación de empresa"
+            },
+            "HEADER": "Nuevas empresas",
+            "EXPLANATION": "Coaching centrado en el fundador para construir equipos efectivos.",
+            "BUSINESS-DEVELOPMENT": {
+                "HEADER": "Desarrollo de negocios",
+                "SALES-TEAM-MANAGEMENT": "Dirección del equipo de ventas.",
+                "SALES-PROCESS-ENABLEMENT": "Proceso de ventas habilitado",
+                "NEGOTIATION-SUPPORT": "Apoyo a la negociación para cerrar acuerdos"
+            },
+            "ACTIVE-COACHING": {
+                "HEADER": "Coaching activo",
+                "ONE-ON-ONES": "Uno a uno con personas clave",
+                "MEASUREMENT-INDIVIDUAL-CONTRIBUTIONS": "Medición de aportes individuales",
+                "ORGANIZATIONAL-COOPERATION": "Cooperación organizacional"
+            }
         }
     }
 }
