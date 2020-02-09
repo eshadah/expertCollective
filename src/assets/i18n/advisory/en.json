@@ -49,6 +49,28 @@
                 "ENGAGEMENT-BEHAVIOR-CHANGE": "Engagement and behavior change",
                 "AVATARS-IDENTITY": "Avatars and identity"
             }
+        },
+        "INNOVATION-MANAGEMENT": {
+            "HEADER": "Innovation Management",
+            "ENABLING-NEW-THINKING": "Enabling new thinking that leads to breakthroughs.",
+            "R-D-PIPELINES": {
+                "HEADER": "R&D Pipelines",
+                "PROJECT-IDENTIFICATION": "Project identification and generation",
+                "MOTIVATIONS-REWARDS": "Motivations and rewards for innovators",
+                "RESEARCH-COLLABORATIONS": "Research collaborations and external scouting"
+            },
+            "CORPORATE-VENTURING": {
+                "HEADER": "Corporate Venturing",
+                "TARGET-SCREENING": "Target screening and selection",
+                "INCENTIVE-MANAGEMENT": "Incentive management",
+                "COMMUNITY-BUILDING": "Community building"
+            },
+            "TALENT-DEVELOPMENT": {
+                "HEADER": "Talent Development and Acquisition",
+                "STRESS-TESTING-TEAMS": "Stress-testing teams",
+                "ACCOUNTABILITY-ORGANIZATIONS": "Accountability in organizations",
+                "FROM-STORMING-TO-PERFORMING": "From storming to performing"
+            }
         }
     }
 }

@@ -8,6 +8,7 @@ import { AdvisoryRoutingModule } from './advisory-routing.module';
 import { AdvisoryComponent } from './advisory.component';
 import { AdvisoryHomeComponent } from './advisory-home/advisory-home.component';
 import { DigitalBusinessTransformationComponent } from './digital-business-transformation/digital-business-transformation.component';
+import { InnovationManagementComponent } from './innovation-management/innovation-management.component';
 
 export function createAdvisoryTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/advisory/', '.json');
@@ -17,7 +18,8 @@ export function createAdvisoryTranslateLoader(http: HttpClient) {
   declarations: [
     AdvisoryComponent, 
     AdvisoryHomeComponent,
-    DigitalBusinessTransformationComponent, 
+    DigitalBusinessTransformationComponent,
+    InnovationManagementComponent, 
   ],
   imports: [
     CommonModule,

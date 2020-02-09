@@ -49,6 +49,28 @@
                 "ENGAGEMENT-BEHAVIOR-CHANGE": "Compromiso y cambio de comportamiento",
                 "AVATARS-IDENTITY": "Avatares e identidad"
             }
+        },
+        "INNOVATION-MANAGEMENT": {
+            "HEADER": "Gestión de la innovación",
+            "ENABLING-NEW-THINKING": "Permitir nuevas ideas que conducen a avances.",
+            "R-D-PIPELINES": {
+                "HEADER":"Tuberías de I + D",
+                "PROJECT-IDENTIFICATION": "Identificación y generación de proyectos",
+                "MOTIVATIONS-REWARDS": "Motivaciones y recompensas para los innovadores.",
+                "RESEARCH-COLLABORATIONS": "Colaboraciones de investigación y exploración externa"
+            },
+            "CORPORATE-VENTURING": {
+                "HEADER": "Empresa Corporativa",
+                "TARGET-SCREENING": "Selección y selección de objetivos",
+                "INCENTIVE-MANAGEMENT": "Manejo de incentivos",
+                "COMMUNITY-BUILDING": "Construcción comunitaria"
+            },
+            "TALENT-DEVELOPMENT": {
+                "HEADER": "Desarrollo de talento y adquisición",
+                "STRESS-TESTING-TEAMS": "Equipos de prueba de estrés",
+                "ACCOUNTABILITY-ORGANIZATIONS": "Responsabilidad en las organizaciones",
+                "FROM-STORMING-TO-PERFORMING": "De asaltar a actuar"
+            }
         }
     }
 }
