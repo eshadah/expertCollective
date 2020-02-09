@@ -1,0 +1,24 @@
+{
+  "VENTURES": {
+    "BREADCRUMB": {
+      "HOME": "Colectivo Experto",
+      "CURRENT-PAGE": "Empresas"
+    },
+    "HEADER": "Empresas",
+    "EXPLANATION": "Brindamos capital y apoyo experto para personas que desean transformar su conocimiento en nuevas empresas.",
+    "PROJECTS": {
+      "HEADER": "Proyectos"
+    },
+    "APPROACH": {
+      "HEADER": "Acercarse",
+      "EXPLANATION": "Creamos equipos fundadores y los apoyamos con asesoramiento y capital.",
+      "OUR-PROCESS": {
+        "HEADER": "Nuestro proceso es el siguiente:",
+        "IDENTIFY-UNIQUE-INSIGHT": "Identificar una visión única",
+        "UNDERSTAND-LEADERSHIP-NEEDS": "Comprender las necesidades de liderazgo",
+        "ASSEMBLE-TEAM": "Reunir equipo",
+        "SECURE-FUNDING": "Financiamiento seguro"
+      }
+    }
+  }
+}

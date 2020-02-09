@@ -1,0 +1,24 @@
+{
+  "VENTURES": {
+    "BREADCRUMB": {
+      "HOME": "Expert Collective",
+      "CURRENT-PAGE": "Ventures"
+    },
+    "HEADER": "Ventures",
+    "EXPLANATION": "We bring capital and expert support for people who want to transform their knowledge into new enterprises.",
+    "PROJECTS": {
+      "HEADER": "Projects"
+    },
+    "APPROACH": {
+      "HEADER": "Approach",
+      "EXPLANATION": "We build founding teams and support them with advice and capital.",
+      "OUR-PROCESS": {
+        "HEADER": "Our process is as follows:",
+        "IDENTIFY-UNIQUE-INSIGHT": "Identify unique insight",
+        "UNDERSTAND-LEADERSHIP-NEEDS": "Understand leadership needs",
+        "ASSEMBLE-TEAM": "Assemble team",
+        "SECURE-FUNDING": "Secure funding"
+      }
+    }
+  }
+}
