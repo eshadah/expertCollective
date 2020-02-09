@@ -1,5 +1,9 @@
 {
   "PRAXIS": {
+    "BREADCRUMB": {
+      "HOME": "Colectivo Experto",
+      "CURRENT-PAGE": "Praxis"
+    },
     "HEADER": "Praxis",
     "DICTIONARY": {
       "DEFINITION": "Praxis sustantivo <i>formal</i>",
