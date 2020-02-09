@@ -15,6 +15,40 @@
             "INDUSTRIAL-MACHINERY": "Industrial Machinery",
             "LIFE-SCIENCES": "Life Sciences",
             "MEDICAL-DEVICES": "Medical Devices"
+        },
+        "DIGITAL-BUSINESS-TRANSFORMATION": {
+            "HEADER": "Digital Business Transformation Experts",
+            "WE-HELP-ORG-LEADERS": "We help organizational leaders take control of digital disruption.",
+            "BLOCKCHAIN": {
+                "HEADER": "Blockchain",
+                "PUBLIC-PRIVATE": "Use of public/private chains",
+                "DEPLOYMENT-BLOCKCHAIN": "Deployment of blockchain principles",
+                "ARCHITECTURE-DECENTRALIZED": "Architecture of decentralized systems"
+            },
+            "CYBER-SECURITY": {
+                "HEADER": "Cyber security",
+                "DETERRANTS": "Deterrants",
+                "MITIGATION": "Mitigation",
+                "CYBER-PHYSICAL": "Cyber-physical systems"
+            },
+            "CLOUD-COMPUTING": {
+                "HEADER": "Cloud computing",
+                "MODULARIZATION": "Modularization",
+                "SERVERLESS-FUNCTIONS": "Serverless functions",
+                "RESTFUL-ARCHITECTURE": "RESTful business architecture"
+            },
+            "DATA-SCIENCE": {
+                "HEADER": "Data science",
+                "BIG-DATA": "Big data",
+                "GEOSPACIAL-DATA": "Geospacial data",
+                "REAL-TIME-DATA": "Real-time data"
+            },
+            "VIRTUAL-AUGMENTED-REALITY": {
+                "HEADER": "Virtual and Augmented Reality (XR)",
+                "HUMAN-MACHINE-INTERFACE": "Human-machine interface",
+                "ENGAGEMENT-BEHAVIOR-CHANGE": "Engagement and behavior change",
+                "AVATARS-IDENTITY": "Avatars and identity"
+            }
         }
     }
 }

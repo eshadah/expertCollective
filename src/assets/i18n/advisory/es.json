@@ -1,5 +1,5 @@
 {
-    "ADVISORY" : {
+    "ADVISORY": {
         "DRIVE-VALUE": "Apoyamos a los líderes empresariales y tecnológicos para impulsar el valor en sus organizaciones a través de líneas claras de responsabilidad.",
         "QUOTE": "Los expertos del colectivo nos ayudaron a transformar nuestra cultura en una donde el aprendizaje conduce al cambio.",
         "WHAT-WE-KNOW": {
@@ -15,6 +15,40 @@
             "INDUSTRIAL-MACHINERY": "Maquinaria industrial",
             "LIFE-SCIENCES": "Ciencias de la vida",
             "MEDICAL-DEVICES": "Dispositivos médicos"
+        },
+        "DIGITAL-BUSINESS-TRANSFORMATION": {
+            "HEADER": "Expertos en transformación de negocios digitales",
+            "WE-HELP-ORG-LEADERS": "Ayudamos a los líderes organizacionales a tomar el control de la disrupción digital.",
+            "BLOCKCHAIN": {
+                "HEADER": "Blockchain",
+                "PUBLIC-PRIVATE": "Uso de cadenas públicas / privadas",
+                "DEPLOYMENT-BLOCKCHAIN": "Implementación de principios de blockchain",
+                "ARCHITECTURE-DECENTRALIZED": "Arquitectura de sistemas descentralizados."
+            },
+            "CYBER-SECURITY": {
+                "HEADER": "La seguridad cibernética",
+                "DETERRANTS": "Disuasivos",
+                "MITIGATION": "Mitigación",
+                "CYBER-PHYSICAL": "Sistemas ciberfísicos"
+            },
+            "CLOUD-COMPUTING": {
+                "HEADER": "Computación en la nube",
+                "MODULARIZATION": "Modularización",
+                "SERVERLESS-FUNCTIONS": "Funciones sin servidor",
+                "RESTFUL-ARCHITECTURE": "RESTful arquitectura empresarial"
+            },
+            "DATA-SCIENCE": {
+                "HEADER": "Ciencia de los datos",
+                "BIG-DATA": "Big data",
+                "GEOSPACIAL-DATA": "Datos geoespaciales",
+                "REAL-TIME-DATA": "Real-time data"
+            },
+            "VIRTUAL-AUGMENTED-REALITY": {
+                "HEADER": "Realidad virtual y aumentada (XR)",
+                "HUMAN-MACHINE-INTERFACE": "Interfaz hombre-máquina",
+                "ENGAGEMENT-BEHAVIOR-CHANGE": "Compromiso y cambio de comportamiento",
+                "AVATARS-IDENTITY": "Avatares e identidad"
+            }
         }
     }
 }
