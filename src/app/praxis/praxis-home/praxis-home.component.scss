@@ -1,0 +1,39 @@
+.paxis {
+  h1 {
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .definition {
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: lightgrey;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    .source {
+      font-style: italic;
+    }
+
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .what-we-know {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    .industries-we-serve {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .links {
+      flex-direction: column;
+    }
+  }
+}
