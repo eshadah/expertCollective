@@ -14,14 +14,13 @@
     border-radius: 29px;
     font-size: x-large;
   }
-  hr {
-    width: 100%;
-  }
   .sectors {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    border-top-style: solid;
+    border-top-width: thin;
     div {
       margin: 15px;
     }
