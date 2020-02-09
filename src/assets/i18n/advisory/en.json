@@ -4,7 +4,7 @@
             "HOME": "Expert Collective",
             "CURRENT-PAGE": "Advisory"
         },
-        "DRIVE-VALUE": "We support business and technology leaders drive value in their organizations through clear lines of accountability.",
+        "HEADER": "We support business and technology leaders drive value in their organizations through clear lines of accountability.",
         "QUOTE": "Experts from the collective helped us transform our culture to one where learning leads to change.",
         "WHAT-WE-KNOW": {
             "HEADER": "What we know",
@@ -27,7 +27,7 @@
                 "CURRENT-PAGE": "Digital Business Transformation"
             },
             "HEADER": "Digital Business Transformation Experts",
-            "WE-HELP-ORG-LEADERS": "We help organizational leaders take control of digital disruption.",
+            "EXPLANATION": "We help organizational leaders take control of digital disruption.",
             "BLOCKCHAIN": {
                 "HEADER": "Blockchain",
                 "PUBLIC-PRIVATE": "Use of public/private chains",
@@ -66,7 +66,7 @@
                 "CURRENT-PAGE": "Innovation Management"
             },
             "HEADER": "Innovation Management",
-            "ENABLING-NEW-THINKING": "Enabling new thinking that leads to breakthroughs.",
+            "EXPLANATION": "Enabling new thinking that leads to breakthroughs.",
             "R-D-PIPELINES": {
                 "HEADER": "R&D Pipelines",
                 "PROJECT-IDENTIFICATION": "Project identification and generation",

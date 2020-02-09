@@ -4,7 +4,7 @@
             "HOME": "Colectivo Experto",
             "CURRENT-PAGE": "Consultivo"
         },
-        "DRIVE-VALUE": "Apoyamos a los líderes empresariales y tecnológicos para impulsar el valor en sus organizaciones a través de líneas claras de responsabilidad.",
+        "HEADER": "Apoyamos a los líderes empresariales y tecnológicos para impulsar el valor en sus organizaciones a través de líneas claras de responsabilidad.",
         "QUOTE": "Los expertos del colectivo nos ayudaron a transformar nuestra cultura en una donde el aprendizaje conduce al cambio.",
         "WHAT-WE-KNOW": {
             "HEADER": "Lo que sabemos",
@@ -27,7 +27,7 @@
                 "CURRENT-PAGE": "Transformación de negocios digitales"
             },
             "HEADER": "Expertos en transformación de negocios digitales",
-            "WE-HELP-ORG-LEADERS": "Ayudamos a los líderes organizacionales a tomar el control de la disrupción digital.",
+            "EXPLANATION": "Ayudamos a los líderes organizacionales a tomar el control de la disrupción digital.",
             "BLOCKCHAIN": {
                 "HEADER": "Blockchain",
                 "PUBLIC-PRIVATE": "Uso de cadenas públicas / privadas",
@@ -66,7 +66,7 @@
                 "CURRENT-PAGE": "Gestión de la innovación"
             },
             "HEADER": "Gestión de la innovación",
-            "ENABLING-NEW-THINKING": "Permitir nuevas ideas que conducen a avances.",
+            "EXPLANATION": "Permitir nuevas ideas que conducen a avances.",
             "R-D-PIPELINES": {
                 "HEADER":"Tuberías de I + D",
                 "PROJECT-IDENTIFICATION": "Identificación y generación de proyectos",
