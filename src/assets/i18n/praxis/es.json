@@ -1,31 +1,33 @@
 {
-  "PRAXIS": "Praxis",
-  "DICTIONARY": {
-    "DEFINITION": "Praxis sustantivo <i>formal</i>",
-    "FIRST": "acción, práctica: como",
-    "FIRST.FIRST": "ejercicio o práctica de un arte, ciencia o habilidad",
-    "FIRST.SECOND": "práctica o conducta habitual",
-    "SECOND": "Aplicación práctica de una teoría.",
-    "SOURCE": "Diccionario Merriam-Webster"
-  },
-  "APPLY-WHAT-YOU-LEARN": "Aplique lo que aprende a través del conocimiento experto codificado en experiencias de aprendizaje fáciles de digerir.",
-  "PROGRAMS": {
-    "ONLINE-PROGRAMS": {
-      "HEADER": "Programas en linea",
-      "MICRO-LEARNING": "Micro aprendizaje",
-      "EXECUTIVE-LEARNING": "Aprendizaje ejecutivo",
-      "PROFESSIONAL-TECHNICAL-LEARNING": "Aprendizaje profesional y técnico."
+  "PRAXIS": {
+    "HEADER": "Praxis",
+    "DICTIONARY": {
+      "DEFINITION": "Praxis sustantivo <i>formal</i>",
+      "FIRST": "acción, práctica: como",
+      "FIRST.FIRST": "ejercicio o práctica de un arte, ciencia o habilidad",
+      "FIRST.SECOND": "práctica o conducta habitual",
+      "SECOND": "Aplicación práctica de una teoría.",
+      "SOURCE": "Diccionario Merriam-Webster"
     },
-    "BLENDED-PROGRAMS": {
-      "HEADER": "Programas combinados",
-      "BLENDED-BOOTCAMPS": "Bootcamps mezclados",
-      "BLENDED-WORKSHOPS": "Blended workshops"
-    },
-    "ON-LOCATION-PROGRAMS": {
-      "HEADER": "Programas en el lugar",
-      "IN-COUNTRY-INTENSIVE": "Programas intensivos en el país",
-      "SPEECHES-AND-LECTURES": "Discursos y conferencias",
-      "CLIENT-VISITS": "Visitas de clientes"
+    "APPLY-WHAT-YOU-LEARN": "Aplique lo que aprende a través del conocimiento experto codificado en experiencias de aprendizaje fáciles de digerir.",
+    "PROGRAMS": {
+      "ONLINE-PROGRAMS": {
+        "HEADER": "Programas en linea",
+        "MICRO-LEARNING": "Micro aprendizaje",
+        "EXECUTIVE-LEARNING": "Aprendizaje ejecutivo",
+        "PROFESSIONAL-TECHNICAL-LEARNING": "Aprendizaje profesional y técnico."
+      },
+      "BLENDED-PROGRAMS": {
+        "HEADER": "Programas combinados",
+        "BLENDED-BOOTCAMPS": "Bootcamps mezclados",
+        "BLENDED-WORKSHOPS": "Blended workshops"
+      },
+      "ON-LOCATION-PROGRAMS": {
+        "HEADER": "Programas en el lugar",
+        "IN-COUNTRY-INTENSIVE": "Programas intensivos en el país",
+        "SPEECHES-AND-LECTURES": "Discursos y conferencias",
+        "CLIENT-VISITS": "Visitas de clientes"
+      }
     }
   }
 }

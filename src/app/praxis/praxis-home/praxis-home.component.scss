@@ -16,23 +16,25 @@
     .source {
       font-style: italic;
     }
-
   }
-  .links {
+  .apply-learn {
+    margin-right: 80px;
+    margin-left: 80px;
+    text-align: center;
+  }
+  .programs {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    .what-we-know {
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-    .industries-we-serve {
+    border-top-style: solid;
+    border-top-width: thin;
+    div {
       margin-right: 20px;
       margin-left: 20px;
     }
   }
   @media screen and (max-width: 575px) {
-    .links {
+    .programs {
       flex-direction: column;
     }
   }
