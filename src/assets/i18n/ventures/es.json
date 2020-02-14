@@ -7,7 +7,15 @@
     "HEADER": "Empresas",
     "EXPLANATION": "Brindamos capital y apoyo experto para personas que desean transformar su conocimiento en nuevas empresas.",
     "PROJECTS": {
-      "HEADER": "Proyectos"
+      "HEADER": "Proyectos",
+      "NAME": "Nombre",
+      "STAGE": "Etapa",
+      "STAGES": {
+        "IDEA": "Idea",
+        "STARTUP": "Puesta en marcha",
+        "GROWTH": "Crecimiento"
+      },
+      "DESCRIPTION": "Descripción"
     },
     "APPROACH": {
       "HEADER": "Acercarse",

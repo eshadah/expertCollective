@@ -24,6 +24,11 @@
     .projects {
       border-top-style: solid;
       border-top-width: thin;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
     }
     .approach {
       display: flex;
@@ -31,6 +36,7 @@
       align-items: center;
       border-top-style: solid;
       border-top-width: thin;
+      width: 100%;
       .approach-explaned {
         font-size: larger;
         font-weight: bold;
