@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MenunavComponent } from './header/menunav/menunav.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -25,7 +26,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     MenunavComponent,
     HomeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
