@@ -1,0 +1,22 @@
+{
+  "CONTACT-US": {
+    "BREADCRUMB": {
+      "HOME": "Expert Collective",
+      "CURRENT-PAGE": "Contact Us"
+    },
+    "HEADER": "Contact Us",
+    "EXPLANATION": "We work with Industry leaders who want to drive digital change.",
+    "FORM": {
+      "FIRST-NAME": "First Name",
+      "LAST-NAME": "Last Name",
+      "TITLE": "Title",
+      "ORGANIZATION": "Organization",
+      "ADDRESS": "Address",
+      "PHONE": "Phone",
+      "EMAIL": "Email",
+      "WHAT-INTEREST": "What interest you?",
+      "TRYING-TO-ACHIEVE": "What are you try to achieve?",
+      "ENTER-YOUR-ANSWER": "Enter your answer here..."
+    }
+  }
+}

@@ -1,1 +1,14 @@
-<p>home works!</p>
+<h1>{{ 'CONTACT-US.' }}</h1>
+<form [formGroup]="contactUsForm" (ngSubmit)="onSubmit(contactUsForm.value)" class="form">
+  <fieldset>
+    <div>
+      <label>Id: </label>{{ hero.id }}</div>
+    <div>
+      <label>Name: </label>
+      <input [(ngModel)]="hero.name" placeholder="name" />
+    </div>
+  </fieldset>
+
+  <button class="button" type="submit">{{ 'CONTACT-US..SUBMIT' }}</button>
+
+</form>

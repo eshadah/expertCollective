@@ -1,0 +1,22 @@
+{
+  "CONTACT-US": {
+    "BREADCRUMB": {
+      "HOME": "Colectivo Experto",
+      "CURRENT-PAGE": "Contacta con nosotros"
+    },
+    "HEADER": "Contacta con nosotros",
+    "EXPLANATION": "Trabajamos con líderes de la industria que desean impulsar el cambio digital.",
+    "FORM": {
+      "FIRST-NAME": "Nombre de pila",
+      "LAST-NAME": "Apellido",
+      "TITLE": "Título",
+      "ORGANIZATION":"Organización",
+      "ADDRESS": "la dirección",
+      "PHONE": "Teléfono",
+      "EMAIL": "Email",
+      "WHAT-INTEREST": "¿Que te interesa?",
+      "TRYING-TO-ACHIEVE": "¿Qué intentas lograr?",
+      "ENTER-YOUR-ANSWER": "Ingrese su respuesta aquí ..."
+    }
+  }
+}

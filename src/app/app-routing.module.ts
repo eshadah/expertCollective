@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { SelectivePreloadingStrategyService } from './selective-preloading-strategy-service.service';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -10,7 +11,11 @@ const routes: Routes = [
   { path: 'praxis', loadChildren: () => import('./praxis/praxis.module').then(mod => mod.PraxisModule) },
   { path: 'ventures', loadChildren: () => import('./ventures/ventures.module').then(mod => mod.VenturesModule) },
   { path: 'about-us', component: AboutUsComponent },
-  { path: 'contact-us', loadChildren: () => import('./contact-us/contact-us.module').then(mod => mod.ContactUsModule) },
+  { 
+    path: 'contact-us', 
+    loadChildren: () => import('./contact-us/contact-us.module').then(mod => mod.ContactUsModule),
+    data: { preload: true }
+   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
@@ -20,6 +25,7 @@ const routes: Routes = [
     routes,
     {
       enableTracing: false, // <-- debugging purposes only
+      preloadingStrategy: SelectivePreloadingStrategyService,
     }
   )],
   exports: [RouterModule]
