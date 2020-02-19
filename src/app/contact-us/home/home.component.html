@@ -1,14 +1,13 @@
-<h1>{{ 'CONTACT-US.' }}</h1>
-<form [formGroup]="contactUsForm" (ngSubmit)="onSubmit(contactUsForm.value)" class="form">
-  <fieldset>
-    <div>
-      <label>Id: </label>{{ hero.id }}</div>
-    <div>
-      <label>Name: </label>
-      <input [(ngModel)]="hero.name" placeholder="name" />
-    </div>
-  </fieldset>
-
-  <button class="button" type="submit">{{ 'CONTACT-US..SUBMIT' }}</button>
-
-</form>
+<div class="contact-us">
+  <nav class="breadcrumb">
+    >
+    <a routerLink="/">{{ 'CONTACT-US.BREADCRUMB.HOME' | translate }}</a>
+    >
+    <span>{{ 'CONTACT-US.BREADCRUMB.CURRENT-PAGE' | translate }}</span>
+  </nav>
+  <div class="main">
+    <h1>{{ 'CONTACT-US.HEADER' | translate }}</h1>
+    <p class="explain">{{ 'CONTACT-US.EXPLANATION' | translate }}</p>
+    <app-contact-form></app-contact-form>
+  </div>
+</div>
