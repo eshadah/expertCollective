@@ -1,0 +1,30 @@
+{
+  "CONTACT-US": {
+    "BREADCRUMB": {
+      "HOME": "Expert Collective",
+      "CURRENT-PAGE": "Contact Us"
+    },
+    "HEADER": "Contact Us",
+    "EXPLANATION": "We work with Industry leaders who want to drive digital change.",
+    "FORM": {
+      "FIRST-NAME": "First Name",
+      "FIRST-NAME-PLACEHOLDER": "John",
+      "LAST-NAME": "Last Name",
+      "LAST-NAME-PLACEHOLDER": "Smith",
+      "TITLE": "Title",
+      "TITLE-PLACEHOLDER": "President, Founder",
+      "ORGANIZATION": "Organization",
+      "ORGANIZATION-PLACEHOLDER": "ACME, Inc",
+      "ADDRESS": "Address",
+      "ADDRESS-PLACEHOLDER": "Denver, Co, USA",
+      "PHONE": "Phone",
+      "PHONE-PLACEHOLDER": "234-456-7890",
+      "EMAIL": "Email",
+      "EMAIL-PLACEHOLDER": "test@example.com",
+      "WHAT-INTEREST": "What interest you?",
+      "TRYING-TO-ACHIEVE": "What are you try to achieve?",
+      "TRYING-TO-ACHIEVE-PLACEHOLDER": "Enter your answer here...",
+      "SUBMIT": "Submit"
+    }
+  }
+}

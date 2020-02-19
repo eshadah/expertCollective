@@ -24,6 +24,10 @@
         "FOOTER": {
             "ABOUT-US": "About Us",
             "CONTACT-US": "Contact Us"
+        },
+        "ABOUT-US": {
+            "HEADER": "About Us",
+            "EXPLANATION": "Expert Collective Cooperative is a member owned coop that seeks to bridge the gap between entrepreneurs and academic experts.  We strive to allow access to top Experts in cutting edge fields to the business community that can fund and implement those breakthroughs."
         }
     }
 }
