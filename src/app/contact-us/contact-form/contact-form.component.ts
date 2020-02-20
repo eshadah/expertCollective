@@ -27,5 +27,9 @@ export class ContactFormComponent implements OnInit {
   }
   onSubmit(contactData: any) {
     // TODO: save data to file via service
+    console.log('Form Data: ', contactData);
+    console.log('Form Group Value: ', this.contactUsForm.value);
+    this.contactUsForm.reset();
+    
   }
 }
