@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms'
 
 @Component({
@@ -7,6 +7,7 @@ import { FormBuilder, FormGroup } from '@angular/forms'
   styleUrls: ['./contact-form.component.scss']
 })
 export class ContactFormComponent implements OnInit {
+  @Output() contactInfoSent = new EventEmitter<boolean>();
 
   contactUsForm: FormGroup;
 
@@ -30,6 +31,6 @@ export class ContactFormComponent implements OnInit {
     console.log('Form Data: ', contactData);
     console.log('Form Group Value: ', this.contactUsForm.value);
     this.contactUsForm.reset();
-    
+    this.contactInfoSent.emit(true);
   }
 }
