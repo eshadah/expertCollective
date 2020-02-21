@@ -1,19 +1,19 @@
 {
   "PRAXIS": {
     "BREADCRUMB": {
-      "HOME": "Colectivo Experto",
+      "HOME": "Expert Collective Cooperative",
       "CURRENT-PAGE": "Praxis"
     },
     "HEADER": "Praxis",
     "DICTIONARY": {
-      "DEFINITION": "Praxis sustantivo <i>formal</i>",
-      "FIRST": "acción, práctica: como",
-      "FIRST.FIRST": "ejercicio o práctica de un arte, ciencia o habilidad",
-      "FIRST.SECOND": "práctica o conducta habitual",
-      "SECOND": "Aplicación práctica de una teoría.",
+      "DEFINITION": "Praxis <i>formal</i>",
+      "FIRST": "Teoría y práctica, combinada:",
+      "FIRST.FIRST": "Práctica de arte y método científico",
+      "FIRST.SECOND": "Práctica de conductas productivas",
+      "SECOND": "Aplicación práctica de teorías.",
       "SOURCE": "Diccionario Merriam-Webster"
     },
-    "EXPLANATION": "Aplique lo que aprende a través del conocimiento experto codificado en experiencias de aprendizaje fáciles de digerir.",
+    "EXPLANATION": "Aplica lo que aprendes con nuestros programas para ejecutivos",
     "PROGRAMS": {
       "ONLINE-PROGRAMS": {
         "HEADER": "Programas en linea",
@@ -24,13 +24,13 @@
       "BLENDED-PROGRAMS": {
         "HEADER": "Programas combinados",
         "BLENDED-BOOTCAMPS": "Bootcamps mezclados",
-        "BLENDED-WORKSHOPS": "Blended workshops"
+        "BLENDED-WORKSHOPS": "Talleres"
       },
       "ON-LOCATION-PROGRAMS": {
-        "HEADER": "Programas en el lugar",
-        "IN-COUNTRY-INTENSIVE": "Programas intensivos en el país",
+        "HEADER": "Programas in-situ",
+        "IN-COUNTRY-INTENSIVE": "Programas intensivos en tu país",
         "SPEECHES-AND-LECTURES": "Discursos y conferencias",
-        "CLIENT-VISITS": "Visitas de clientes"
+        "CLIENT-VISITS": "Visitas de nuestros expertos a tus clientes"
       }
     }
   }

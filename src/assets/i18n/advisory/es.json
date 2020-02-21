@@ -1,108 +1,108 @@
 {
     "ADVISORY": {
         "BREADCRUMB": {
-            "HOME": "Colectivo Experto",
-            "CURRENT-PAGE": "Consultivo"
+            "HOME": "Expert Collective Cooperative",
+            "CURRENT-PAGE": "Asesoría"
         },
-        "HEADER": "Apoyamos a los líderes empresariales y tecnológicos para impulsar el valor en sus organizaciones a través de líneas claras de responsabilidad.",
-        "QUOTE": "Los expertos del colectivo nos ayudaron a transformar nuestra cultura en una donde el aprendizaje conduce al cambio.",
+        "HEADER": "Ayudamos a líderes empresariales y tecnológicos impulsar el valor económico de sus organizaciones por medio de gerencia estratégica.",
+        "QUOTE": "Expert Collective Cooperative nos iluminó el camino a seguir para negociar el contrato más importante de nuestra empresa.",
         "WHAT-WE-KNOW": {
-            "HEADER": "Lo que sabemos",
-            "DIGITAL-BUSINESS-TRANSFORMATION": "Transformación digital de negocios y ciencia de datos",
+            "HEADER": "Lo que hacemos",
+            "DIGITAL-BUSINESS-TRANSFORMATION": "Transformación digital de negocios y data science",
             "INNOVATION-MANAGEMENT": "Gestión de la innovación",
-            "NEW-VENTURE-FORMATION": "Innovación Formación y gestión de nuevas empresas"
+            "NEW-VENTURE-FORMATION": "Formación y gestión de viveros y nuevas empresas"
         },
         "INDUSTRIES-WE-SERVE": {
-            "HEADER": "Industrias a las que servimos",
-            "APPLICATION-SOFTWARE": "Software de la aplicacion",
+            "HEADER": "Industrias que servimos",
+            "APPLICATION-SOFTWARE": "Aplicaciones de software",
             "EDUCATION": "Educación",
             "INDUSTRIAL-MACHINERY": "Maquinaria industrial",
-            "LIFE-SCIENCES": "Ciencias de la vida",
+            "LIFE-SCIENCES": "Biotecnología",
             "MEDICAL-DEVICES": "Dispositivos médicos"
         },
         "DIGITAL-BUSINESS-TRANSFORMATION": {
             "BREADCRUMB": {
-                "HOME": "Colectivo Experto",
-                "ADVISORY": "Consultivo",
-                "CURRENT-PAGE": "Transformación de negocios digitales"
+                "HOME": "Expert Collective Cooperative",
+                "ADVISORY": "Asesoría",
+                "CURRENT-PAGE": "Transformación digital de negocios y data science"
             },
-            "HEADER": "Expertos en transformación de negocios digitales",
-            "EXPLANATION": "Ayudamos a los líderes organizacionales a tomar el control de la disrupción digital.",
+            "HEADER": "Expertos en transformación digital de negocios",
+            "EXPLANATION": "Ayudamos a los líderes empresariales a dominar la disrupción digital.",
             "BLOCKCHAIN": {
                 "HEADER": "Blockchain",
-                "PUBLIC-PRIVATE": "Uso de cadenas públicas / privadas",
-                "DEPLOYMENT-BLOCKCHAIN": "Implementación de principios de blockchain",
+                "PUBLIC-PRIVATE": "Uso de Blockchains públicas y privadas",
+                "DEPLOYMENT-BLOCKCHAIN": "Implementación de blockchain",
                 "ARCHITECTURE-DECENTRALIZED": "Arquitectura de sistemas descentralizados."
             },
             "CYBER-SECURITY": {
-                "HEADER": "La seguridad cibernética",
-                "DETERRANTS": "Disuasivos",
-                "MITIGATION": "Mitigación",
+                "HEADER": "Seguridad cibernética",
+                "DETERRANTS": "Estrategias de disuasión",
+                "MITIGATION": "Estrategias de mitigación",
                 "CYBER-PHYSICAL": "Sistemas ciberfísicos"
             },
             "CLOUD-COMPUTING": {
                 "HEADER": "Computación en la nube",
                 "MODULARIZATION": "Modularización",
                 "SERVERLESS-FUNCTIONS": "Funciones sin servidor",
-                "RESTFUL-ARCHITECTURE": "RESTful arquitectura empresarial"
+                "RESTFUL-ARCHITECTURE": "Arquitectura RESTful empresarial"
             },
             "DATA-SCIENCE": {
-                "HEADER": "Ciencia de los datos",
+                "HEADER": "Data science",
                 "BIG-DATA": "Big data",
                 "GEOSPACIAL-DATA": "Datos geoespaciales",
-                "REAL-TIME-DATA": "Real-time data"
+                "REAL-TIME-DATA": "Data a tiempo real"
             },
             "VIRTUAL-AUGMENTED-REALITY": {
                 "HEADER": "Realidad virtual y aumentada (XR)",
                 "HUMAN-MACHINE-INTERFACE": "Interfaz hombre-máquina",
-                "ENGAGEMENT-BEHAVIOR-CHANGE": "Compromiso y cambio de comportamiento",
+                "ENGAGEMENT-BEHAVIOR-CHANGE": "Interacción y cambio de comportamiento",
                 "AVATARS-IDENTITY": "Avatares e identidad"
             }
         },
         "INNOVATION-MANAGEMENT": {
             "BREADCRUMB": {
-                "HOME": "Colectivo Experto",
-                "ADVISORY": "Consultivo",
+                "HOME": "Expert Collective Cooperative",
+                "ADVISORY": "Asesoría",
                 "CURRENT-PAGE": "Gestión de la innovación"
             },
             "HEADER": "Gestión de la innovación",
-            "EXPLANATION": "Permitir nuevas ideas que conducen a avances.",
+            "EXPLANATION": "Promover ideas nuevas y disruptivas que conduzcan a avances significativos.",
             "R-D-PIPELINES": {
-                "HEADER":"Tuberías de I + D",
+                "HEADER":"Pipelines de I + D",
                 "PROJECT-IDENTIFICATION": "Identificación y generación de proyectos",
-                "MOTIVATIONS-REWARDS": "Motivaciones y recompensas para los innovadores.",
+                "MOTIVATIONS-REWARDS": "Incentivos para innovación",
                 "RESEARCH-COLLABORATIONS": "Colaboraciones de investigación y exploración externa"
             },
             "CORPORATE-VENTURING": {
-                "HEADER": "Empresa Corporativa",
-                "TARGET-SCREENING": "Selección y selección de objetivos",
+                "HEADER": "Corporate Ventures",
+                "TARGET-SCREENING": "Selección de proyectos",
                 "INCENTIVE-MANAGEMENT": "Manejo de incentivos",
-                "COMMUNITY-BUILDING": "Construcción comunitaria"
+                "COMMUNITY-BUILDING": "Desarrollo de comunidades"
             },
             "TALENT-DEVELOPMENT": {
-                "HEADER": "Desarrollo de talento y adquisición",
-                "STRESS-TESTING-TEAMS": "Equipos de prueba de estrés",
-                "ACCOUNTABILITY-ORGANIZATIONS": "Responsabilidad en las organizaciones",
-                "FROM-STORMING-TO-PERFORMING": "De asaltar a actuar"
+                "HEADER": "Desarrollo y contratación de talento",
+                "STRESS-TESTING-TEAMS": "Gestión de equipos de alto desempeño",
+                "ACCOUNTABILITY-ORGANIZATIONS": "Responsabilidad individual",
+                "FROM-STORMING-TO-PERFORMING": "Desde mediocridad hasta desempeño"
             }
         },
         "VENTURE-FORMATION": {
             "BREADCRUMB": {
-                "HOME": "Colectivo Experto",
-                "ADVISORY": "Consultivo",
-                "CURRENT-PAGE": "Formación de empresa"
+                "HOME": "Expert Collective Cooperative",
+                "ADVISORY": "Asesoría",
+                "CURRENT-PAGE": "Formación de empresas"
             },
             "HEADER": "Nuevas empresas",
-            "EXPLANATION": "Coaching centrado en el fundador para construir equipos efectivos.",
+            "EXPLANATION": "Coaching centrado en el fundador para construir empresas efectivos.",
             "BUSINESS-DEVELOPMENT": {
                 "HEADER": "Desarrollo de negocios",
                 "SALES-TEAM-MANAGEMENT": "Dirección del equipo de ventas.",
-                "SALES-PROCESS-ENABLEMENT": "Proceso de ventas habilitado",
-                "NEGOTIATION-SUPPORT": "Apoyo a la negociación para cerrar acuerdos"
+                "SALES-PROCESS-ENABLEMENT": "Procesos de ventas",
+                "NEGOTIATION-SUPPORT": "Apoyo a negociaciones de acuerdos y contratos"
             },
             "ACTIVE-COACHING": {
                 "HEADER": "Coaching activo",
-                "ONE-ON-ONES": "Uno a uno con personas clave",
+                "ONE-ON-ONES": "Sesiones personalizadas con gente clave",
                 "MEASUREMENT-INDIVIDUAL-CONTRIBUTIONS": "Medición de aportes individuales",
                 "ORGANIZATIONAL-COOPERATION": "Cooperación organizacional"
             }
