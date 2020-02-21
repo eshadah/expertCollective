@@ -1,29 +1,29 @@
 {
     "APP": {
         "HEADER": {
-            "LOGO": "Expert Collective",
-            "SCREEN-READER": " - Página de inicio",
+            "LOGO": "Expert Collective Cooperative",
+            "SCREEN-READER": "Home",
             "MENUNAV": {
-                "ADVISORY": "Asesoria",
-                "PRAXIS": "Practica",
-                "VENTURES": "Empresas",
-                "CONTACT-US": "Contacta con nosotros"
+                "ADVISORY": "Asesoría",
+                "PRAXIS": "Práctica",
+                "VENTURES": "Startups",
+                "CONTACT-US": "Contáctanos"
             }
         },
         "HOME": {
-            "HEADER": "Knowledge Applied",
-            "EXPLANATION": "Perseguimos nuestra misión a través de tres estrategias distintas pero integradas:",
-            "ADVISORY": "Advisory",
-            "SUPPORT-SCIENTIST-ENTREPRENEURS": "Apoyo mediante la conexión de científicos y emprendedores en el proceso de formación y gestión de sus empresas.",
-            "PRAXIS": "Practica",
-            "CODIFY-EXPERT-KNOWLEDGE": "Codifique y empaquete el conocimiento experto en experiencias de aprendizaje fáciles de digerir para cualquier persona curiosa sobre tecnología y negocios.",
+            "HEADER": "Conocimiento Aplicado",
+            "EXPLANATION": "Nuestra misión es diseminar nuevo conocimiento por medio de tres estrategias integradas:",
+            "ADVISORY": "Asesoría",
+            "SUPPORT-SCIENTIST-ENTREPRENEURS": "Apoyamos a innovadores en el proceso de desarrollo y gestión de tecnología aplicado a negocios.",
+            "PRAXIS": "Práctica",
+            "CODIFY-EXPERT-KNOWLEDGE": "Producimos programas ejecutivos sobre tecnología aplicada a negocios de alto impacto.",
             "VENTURES": "Ventures",
-            "BRING-CAPITAL": "Aportamos capital para apoyar a las personas que desean aportar sus conocimientos a la sociedad a través de la formación de nuevas empresas y cooperativas.",
-            "HELLO": "hola {{value}}"
+            "BRING-CAPITAL": "Aportamos capital para generar empresas fundamentadas en conocimiento nuevo que revolucionen mercados.",
+            "HELLO": "Hola {{value}}"
         },
         "FOOTER": {
-            "ABOUT-US": "Sobre nosotros",
-            "CONTACT-US": "Contacta con nosotros"
+            "ABOUT-US": "Acerca",
+            "CONTACT-US": "Hablemos"
         }
     }
 }
