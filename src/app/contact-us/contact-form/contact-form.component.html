@@ -1,43 +1,38 @@
 <form [formGroup]="contactUsForm" (ngSubmit)="onSubmit(contactUsForm.value)" class="form">
-  <fieldset>
-    <div>
-      <div>
-        <label for="firstName">{{ 'CONTACT-US.FORM.FIRST-NAME' | translate }}: </label>
-        <input id="firstName" formControlName="firstName" [attr.placeholder]="'CONTACT-US.FORM.FIRST-NAME-PLACEHOLDER' | translate" />
-      </div>
-      <div>
-        <label for="lastName">{{ 'CONTACT-US.FORM.LAST-NAME' | translate }}: </label>
-        <input id="lastName" formControlName="lastName" [attr.placeholder]="'CONTACT-US.FORM.LAST-NAME-PLACEHOLDER' | translate" />
-      </div>
-    </div>
-    <div>
-      <div>
-        <label for="title">{{ 'CONTACT-US.FORM.TITLE' | translate }}: </label>
-        <input id="title" formControlName="title" [attr.placeholder]="'CONTACT-US.FORM.TITLE-PLACEHOLDER' | translate" />
-      </div>
-      <div>
-        <label for="organization">{{ 'CONTACT-US.FORM.ORGANIZATION' | translate }}: </label>
-        <input id="organization" formControlName="organization" [attr.placeholder]="'CONTACT-US.FORM.ORGANIZATION-PLACEHOLDER' | translate" />
-      </div>
-    </div>
-    <div>
-      <div>
-        <label for="address">{{ 'CONTACT-US.FORM.ADDRESS' | translate }}: </label>
-        <input id="address" formControlName="address" [attr.placeholder]="'CONTACT-US.FORM.ADDRESS-PLACEHOLDER' | translate" />
-      </div>
-    </div>
-    <div>
-      <div>
-        <label for="phone">{{ 'CONTACT-US.FORM.PHONE' | translate }}: </label>
-        <input id="phone" formControlName="phone" [attr.placeholder]="'CONTACT-US.FORM.PHONE-PLACEHOLDER' | translate" />
-      </div>
-      <div>
-        <label for="email">{{ 'CONTACT-US.FORM.EMAIL' | translate }}: </label>
-        <input id="email" formControlName="email" [attr.placeholder]="'CONTACT-US.FORM.EMAIL-PLACEHOLDER' | translate" />
-      </div>
-    </div>
-  </fieldset>
-
-  <button class="button" type="submit">{{ 'CONTACT-US.FORM.SUBMIT' | translate }}</button>
+  <div class="text-input">
+    <label for="firstName">{{ 'CONTACT-US.FORM.FIRST-NAME' | translate }}: </label>
+    <input id="firstName" formControlName="firstName"
+      [attr.placeholder]="'CONTACT-US.FORM.FIRST-NAME-PLACEHOLDER' | translate" />
+  </div>
+  <div class="text-input">
+    <label for="lastName">{{ 'CONTACT-US.FORM.LAST-NAME' | translate }}: </label>
+    <input id="lastName" formControlName="lastName"
+      [attr.placeholder]="'CONTACT-US.FORM.LAST-NAME-PLACEHOLDER' | translate" />
+  </div>
+  <div class="text-input">
+    <label for="title">{{ 'CONTACT-US.FORM.TITLE' | translate }}: </label>
+    <input id="title" formControlName="title" [attr.placeholder]="'CONTACT-US.FORM.TITLE-PLACEHOLDER' | translate" />
+  </div>
+  <div class="text-input">
+    <label for="organization">{{ 'CONTACT-US.FORM.ORGANIZATION' | translate }}: </label>
+    <input id="organization" formControlName="organization"
+      [attr.placeholder]="'CONTACT-US.FORM.ORGANIZATION-PLACEHOLDER' | translate" />
+  </div>
+  <div class="text-input address">
+    <label for="address">{{ 'CONTACT-US.FORM.ADDRESS' | translate }}: </label>
+    <input id="address" formControlName="address"
+      [attr.placeholder]="'CONTACT-US.FORM.ADDRESS-PLACEHOLDER' | translate" />
+  </div>
+  <div class="text-input">
+    <label for="phone">{{ 'CONTACT-US.FORM.PHONE' | translate }}: </label>
+    <input id="phone" formControlName="phone" [attr.placeholder]="'CONTACT-US.FORM.PHONE-PLACEHOLDER' | translate" />
+  </div>
+  <div class="text-input">
+    <label for="email">{{ 'CONTACT-US.FORM.EMAIL' | translate }}: </label>
+    <input id="email" formControlName="email" [attr.placeholder]="'CONTACT-US.FORM.EMAIL-PLACEHOLDER' | translate" />
+  </div>
+  <div class="button">
+    <button type="submit">{{ 'CONTACT-US.FORM.SUBMIT' | translate }}</button>
+  </div>
 
 </form>
