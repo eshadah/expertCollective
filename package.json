@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "~9.0.4",
     "@angular/platform-server": "^9.0.4",
     "@angular/router": "~9.0.4",
+    "@nguniversal/aspnetcore-engine": "^9.0.1",
     "@nguniversal/builders": "^9.0.1",
     "@nguniversal/express-engine": "^8.2.6",
     "@ngx-translate/core": "^12.1.2",
