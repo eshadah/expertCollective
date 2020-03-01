@@ -25,6 +25,7 @@ const routes: Routes = [
     routes,
     {
       enableTracing: false, // <-- debugging purposes only
+      initialNavigation: 'enabled',
       preloadingStrategy: SelectivePreloadingStrategyService,
     }
   )],

@@ -30,7 +30,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutUsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'expert-collective' }),
     AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({
