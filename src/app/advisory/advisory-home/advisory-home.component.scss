@@ -1,7 +1,8 @@
+@import "../../../colors";
 .advisory {
   .breadcrumb {
     a {
-      color: black;
+      color: $black;
     }
   }
   h1 {
@@ -9,10 +10,19 @@
     padding-bottom: 20px;
     padding-left: 50px;
     text-align: center;
+    color: $purple;
+  }
+  img {
+    display: block;
+    float: right;
+    position: relative;
+    height: 40%;
+    width: 40%;
+    transform: translate(-10%, -10%)
   }
   .links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     border-top-style: solid;
     border-top-width: thin;
@@ -21,6 +31,7 @@
       margin-left: 20px;
     }
   }
+
   @media screen and (max-width: 575px) {
     .links {
       flex-direction: column;

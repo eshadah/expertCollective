@@ -1,3 +1,5 @@
+
+@import "../../../colors";
 .digital-bus-tran {
   .breadcrumb {
     a {
@@ -10,8 +12,8 @@
     align-items: center;
     .help-leaders {
       text-decoration: none;
-      color: white;
-      background-color: rgb(67, 1, 128);
+      color: $whiteSmoke;
+      background-color: $lightSteelBlue;
       padding-top: 30px;
       padding-right: 20px;
       padding-bottom: 30px;
@@ -19,6 +21,7 @@
       margin: 20px;
       border-radius: 29px;
       font-size: x-large;
+      
     }
     .sectors {
       display: flex;
@@ -31,8 +34,8 @@
         margin: 15px;
       }
       h2 {
-        background-color: rgb(99, 95, 102);
-        color: white;
+        background-color: $purple;
+        color: $whiteSmoke;
         border-radius: 19px;
         font-size: larger;
         padding: 10px;

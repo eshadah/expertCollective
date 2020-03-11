@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class AdvisoryHomeComponent implements OnInit {
 
   constructor() { }
-
+  imgSource = '../../../assets/imgs/imgholdr.png'
+  imgAlt = 'Imageholder'
   ngOnInit() {
   }
 

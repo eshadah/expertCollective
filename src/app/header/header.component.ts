@@ -10,6 +10,9 @@ export class HeaderComponent implements OnInit {
   isResponsiveOpen: boolean = false;
 
   constructor() { }
+  
+  imgSource = '../../../assets/imgs/eclogo.png'
+  imgAlt = 'eclogo'
 
   ngOnInit() {
   }

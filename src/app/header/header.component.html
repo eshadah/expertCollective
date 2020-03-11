@@ -1,7 +1,7 @@
 <header [ngClass]="{ 'top-header': true, 'responsive-open': isResponsiveOpen }">
     <div class="logo">
         <a href="/">
-            {{ 'APP.HEADER.LOGO' | uppercase | translate }}
+            <img src="{{ imgSource }}" alt="{{ imgAlt }}">
             <span class="screen-reader">{{ 'APP.HEADER.SCREEN-READER' | uppercase | translate }}</span>
         </a>
     </div>

@@ -10,6 +10,22 @@
     margin-right: 10px;
     margin-bottom: 5px;
     margin-left: 10px;
+    color: rgb(131, 95, 161) ;
+    input {
+      background-color: rgb(212, 209, 209);
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: black;
+      opacity: 1; /* Firefox */
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: black;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: black;
+    }
   }
 
   .address {
@@ -23,6 +39,7 @@
     align-items: flex-end;
     button {
       margin-right: 10px;
+      background-color:rgb(187, 155, 209) ;
     }
   }
 }
