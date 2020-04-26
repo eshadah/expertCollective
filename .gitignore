@@ -4,15 +4,18 @@
 email-auth-config.json
 
 # compiled output
-/dist
-/tmp
-/out-tsc
-package-lock.json
+client/dist
+server/dist
+client/tmp
+server/tmp
+client/out-tsc
+server/out-tsc
 # Only exists if Bazel was run
 /bazel-out
 
 # dependencies
-/node_modules
+/client/node_modules
+/server/node_modules
 
 # profiling files
 chrome-profiler-events*.json
