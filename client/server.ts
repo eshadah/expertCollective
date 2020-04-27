@@ -8,6 +8,10 @@ import { AppServerModule } from './src/main.server';
 import { APP_BASE_HREF } from '@angular/common';
 import { existsSync } from 'fs';
 
+import { EmailService } from './src/serverApp/emails.service'
+// import * as config from './email-auth-config.json'
+const config = require('email-auth-config.json');
+
 // The Express app is exported so that it can be used by serverless Functions.
 export function app() {
   const server = express();
@@ -24,6 +28,12 @@ export function app() {
 
   // Example Express Rest API endpoints
   // app.get('/api/**', (req, res) => { });
+  
+  // Emails
+  var temp = new EmailService().configureTransporter();
+
+  server.get('/api/sendcontact', (req, res) => { });
+
   // Serve static files from /browser
   server.get('*.*', express.static(distFolder, {
     maxAge: '1y'
