@@ -3,8 +3,7 @@
   "description": "Node and Express services for REST calls",
   "private": true,
   "scripts": {
-    "devRest": "node build/rest-server.js",
-    "devRestAngular": "node build/rest-server-angular.js",
+    "devRest": "node build/rest-service.js",
     "tsc": "tsc"
   },
   "dependencies": {
