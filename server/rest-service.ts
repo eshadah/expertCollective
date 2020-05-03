@@ -8,7 +8,7 @@ const app = express();
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 
-
+app.get('/', (req, res) => res.send('Hello from Express'));
 
 const server = app.listen(8000, "localhost", () => {
   const {address, port} = server.address() as AddressInfo;
