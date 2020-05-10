@@ -2,15 +2,15 @@ import * as url from "url";
 import * as config from "../config/config-int.json";
 
 export class SendEmail {
-  private pingAndMeetURL: string;
+  private expertCollectiveURL: string;
   constructor() {
-    const hostname = config.pingmeet.hostname;
+    const hostname = config.expertCollective.hostname;
     const link = {
       protocol: "http",
       slashes: true,
       hostname: hostname,
     };
-    this.pingAndMeetURL = url.format(link);
+    this.expertCollectiveURL = url.format(link);
   }
 
   emailContactInfo(req: any, res: any) {
@@ -45,8 +45,10 @@ export class SendEmail {
       context: {
         message:
           message + " | " + userName + " | " + userEmail + " | " + userPhone,
-        link: this.pingAndMeetURL,
+        link: this.expertCollectiveURL,
       },
     };
+
+    res.send({ success: true }); // Bad practice
   }
 }
