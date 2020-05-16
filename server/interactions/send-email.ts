@@ -1,54 +1,26 @@
-import * as url from "url";
-import * as config from "../config/config-int.json";
+import * as nodemailer from "nodemailer";
 
 export class SendEmail {
-  private expertCollectiveURL: string;
+  transporter;
   constructor() {
-    const hostname = config.expertCollective.hostname;
-    const link = {
-      protocol: "http",
-      slashes: true,
-      hostname: hostname,
-    };
-    this.expertCollectiveURL = url.format(link);
+    this.transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: "support@expertcollective.org",
+        pass: "Supp0rt!",
+      },
+    });
   }
 
-  emailContactInfo(req: any, res: any) {
-    console.log("[Messages] emailContactInfo()");
-    console.log("[Messages][emailContactInfo] body ", req.body);
-    const userEmail = req.body.userEmail;
-    const userPhone = req.body.userPhone;
-    const userName = req.body.userName;
-    const message = req.body.message;
-    const subject = req.body.subject;
-
-    console.log("[Messages][emailContactInfo] userEmail: " + userEmail);
-    console.log("[Messages][emailContactInfo] userPhone: " + userPhone);
-    console.log("[Messages][emailContactInfo] userName: " + userName);
-    console.log("[Messages][emailContactInfo] message: " + message);
-    console.log("[Messages][emailContactInfo] subject: " + subject);
-
-    // fix messaging for user
-    if (!userEmail || !userName || !message || !subject) {
-      console.log(
-        "[ERROR][Messages][emailSendContact] Some parameter is NULL."
-      );
-
-      res.send({ success: false });
-      return;
+  sendEmail(email) {
+    if (email) {
+      this.transporter.sendMail({
+        from: email.from,
+        to: email.to,
+        subject: email.subject,
+        text: email.text,
+        html: email.html,
+      });
     }
-    let emailPrep = {
-      to: "support@expertcollective.org",
-      // from: userEmail,
-      subject: "[Ping&Meet][Contact] - " + subject,
-      html: "userContact",
-      context: {
-        message:
-          message + " | " + userName + " | " + userEmail + " | " + userPhone,
-        link: this.expertCollectiveURL,
-      },
-    };
-
-    res.send({ success: true }); // Bad practice
   }
 }

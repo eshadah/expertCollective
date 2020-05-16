@@ -1,10 +1,7 @@
-import { SendEmail } from "./send-email";
+import { ContactInfo } from "./contact-info";
 export class InteractionRoutes {
-  private sendEmail: SendEmail;
-  constructor() {
-    this.sendEmail = new SendEmail();
-  }
+  constructor(private contactInfo: ContactInfo) {}
   sendcontact(req, res) {
-    return this.sendEmail.emailContactInfo(req, res);
+    return this.contactInfo.sendContactInfo(req, res);
   }
 }
