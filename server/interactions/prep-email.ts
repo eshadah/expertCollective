@@ -7,12 +7,15 @@ export class PrepEmail {
   emailsList = ["userContact"];
 
   constructor() {
+    this.emailTemplates = {};
     this.emailsList.forEach((emailTmp) => this.loadTemplates(emailTmp));
   }
 
   loadTemplates(filename) {
+    console.log(filename);
+    debugger;
     fs.readFile(
-      "../assets/templates/" + filename + ".hbs",
+      "./assets/templates/" + filename + ".hbs",
       (err: NodeJS.ErrnoException, data: Buffer) => {
         if (err) {
           console.log(
