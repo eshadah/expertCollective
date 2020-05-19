@@ -9,10 +9,21 @@ const app = express();
 
 app.use("/", express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
+
+
 app.get("/", (req, res) => res.send("Hello from Express"));
 
+
+app.post("/api/product", (req, res) => {
+
+  console.log(`Received new product
+               ${req.body.title} ${req.body.price}`);
+
+  res.json({'message':`Server responded: added ${req.body.title}`});
+ });
+
 // InteractionAPI
-app.post("/sendcontact", multipartMiddleware, interRoutes.sendcontact);
+app.post("/api/sendcontact", multipartMiddleware, interRoutes.sendcontact);
 
 const server = app.listen(8000, "localhost", () => {
   const { address, port } = server.address() as AddressInfo;

@@ -12,7 +12,7 @@ export class PrepEmail {
 
   loadTemplates(filename) {
     fs.readFile(
-      "templates/" + filename + ".hbs",
+      "../assets/templates/" + filename + ".hbs",
       (err: NodeJS.ErrnoException, data: Buffer) => {
         if (err) {
           console.log(

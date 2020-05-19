@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "devRest": "node build/rest-service.js",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "build": "tsc && npm run copy:assets",
+    "copy:assets": "cp -r assets/* build/assets "
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.0",
@@ -17,6 +19,7 @@
   "devDependencies": {
     "@types/express": "^4.16.0",
     "@types/node": "^10.12.18",
+    "copyfiles": "^2.2.0",
     "typescript": "~3.2.2"
   }
 }
