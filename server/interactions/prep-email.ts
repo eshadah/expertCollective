@@ -12,8 +12,6 @@ export class PrepEmail {
   }
 
   loadTemplates(filename) {
-    console.log(filename);
-    debugger;
     fs.readFile(
       "./assets/templates/" + filename + ".hbs",
       (err: NodeJS.ErrnoException, data: Buffer) => {

@@ -5,6 +5,7 @@ import { SendEmail } from "./send-email";
 
 export class ContactInfo {
   private expertCollectiveURL: string;
+  temp: string = "Contanct Info Temp";
   constructor(private prepEmail: PrepEmail, private sendEmail: SendEmail) {
     const hostname = config.expertCollective.hostname;
     const link = {
