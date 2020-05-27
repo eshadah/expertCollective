@@ -6,8 +6,8 @@ export class InteractionRoutes {
     console.log("InteractionRoutes: this. " + this.contactInfo.temp);
 
   }
-  sendcontact(req, res) {
-    console.log("sendcontact", req.body);
+  sendcontact = (req, res) => {
+    console.log("sendcontact: ", req.body);
     console.log(this.contactInfo.temp);
 
     return this.contactInfo.sendContactInfo(req, res);
